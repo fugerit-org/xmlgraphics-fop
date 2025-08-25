@@ -1,0 +1,9 @@
+{
+  "bundles": [],
+  "resources": {
+    "includes": [
+      {"pattern": "org/apache/fop/.*$"},
+      {"pattern": "META-INF/services/.*$"}
+    ]
+  }
+}

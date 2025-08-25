@@ -1,0 +1,153 @@
+# Sample native helper config file
+---
+generate:
+
+  # org.apache.fop.events.EventExceptionManager$ExceptionFactory
+  - className: org.apache.fop.event.ValidationExceptionFactory
+    mode: all
+  - className: org.apache.fop.event.PropertyExceptionFactory
+    mode: all
+  - className: org.apache.fop.event.UnsupportedOperationExceptionFactory
+    mode: all
+  - className: org.apache.fop.layoutmgr.LayoutException$LayoutExceptionFactory
+    mode: all
+  - className: org.apache.fop.fo.pagination.PageProductionException$PageProductionExceptionFactory
+    mode: al
+
+
+  # org.apache.fop.render.Renderer
+  - className: org.apache.fop.render.txt.TXTRendererMaker
+    mode: all
+  - className: org.apache.fop.render.bitmap.PNGRendererMaker
+    mode: all
+  - className: org.apache.fop.render.bitmap.TIFFRendererMaker
+    mode: all
+  - className: org.apache.fop.render.xml.XMLRendererMaker
+    mode: all
+  - className: org.apache.fop.render.awt.AWTRendererMaker
+    mode: all
+  - className: org.apache.fop.render.print.PrintRendererMaker
+    mode: all
+
+  # org.apache.fop.fo.FOEventHandler
+  - className: org.apache.fop.render.rtf.RTFFOEventHandlerMaker
+    mode: all
+  # org.apache.fop.render.ImageHandler
+  - className: org.apache.fop.render.pdf.PDFImageHandlerGraphics2D
+    mode: all
+  - className: org.apache.fop.render.pdf.PDFImageHandlerRenderedImage
+    mode: all
+  - className: org.apache.fop.render.pdf.PDFImageHandlerRawJPEG
+    mode: all
+  - className: org.apache.fop.render.pdf.PDFImageHandlerRawPNG
+    mode: all
+  - className: org.apache.fop.render.pdf.PDFImageHandlerRawCCITTFax
+    mode: all
+  - className: org.apache.fop.render.pdf.PDFImageHandlerSVG
+    mode: all
+  - className: org.apache.fop.render.java2d.Java2DImageHandlerRenderedImage
+    mode: all
+  - className: org.apache.fop.render.java2d.Java2DImageHandlerGraphics2D
+    mode: all
+  - className: org.apache.fop.render.pcl.PCLImageHandlerRenderedImage
+    mode: all
+  - className: org.apache.fop.render.pcl.PCLImageHandlerGraphics2D
+    mode: all
+  - className: org.apache.fop.render.ps.PSImageHandlerRenderedImage
+    mode: all
+  - className: org.apache.fop.render.ps.PSImageHandlerEPS
+    mode: all
+  - className: org.apache.fop.render.ps.PSImageHandlerRawCCITTFax
+    mode: all
+  - className: org.apache.fop.render.ps.PSImageHandlerRawJPEG
+    mode: all
+  - className: org.apache.fop.render.ps.PSImageHandlerRawPNG
+    mode: all
+  - className: org.apache.fop.render.ps.PSImageHandlerGraphics2D
+    mode: all
+  - className: org.apache.fop.render.ps.PSImageHandlerSVG
+    mode: all
+  - className: org.apache.fop.render.afp.AFPImageHandlerRenderedImage
+    mode: all
+  - className: org.apache.fop.render.afp.AFPImageHandlerGraphics2D
+    mode: all
+  - className: org.apache.fop.render.afp.AFPImageHandlerRawStream
+    mode: all
+  - className: org.apache.fop.render.afp.AFPImageHandlerRawCCITTFax
+    mode: all
+  - className: org.apache.fop.render.afp.AFPImageHandlerRawJPEG
+    mode: all
+  - className: org.apache.fop.render.afp.AFPImageHandlerSVG
+    mode: all
+  # org.apache.fop.render.intermediate.IFDocumentHandler
+  - className: org.apache.fop.render.pdf.PDFDocumentHandlerMaker
+    mode: all
+  - className: org.apache.fop.render.pcl.PCLDocumentHandlerMaker
+    mode: all
+  - className: org.apache.fop.render.bitmap.TIFFDocumentHandlerMaker
+    mode: all
+  - className: org.apache.fop.render.bitmap.PNGDocumentHandlerMaker
+    mode: all
+  - className: org.apache.fop.render.ps.PSDocumentHandlerMaker
+    mode: all
+  - className: org.apache.fop.render.afp.AFPDocumentHandlerMaker
+    mode: all
+  - className: org.apache.fop.render.intermediate.IFSerializerMaker
+    mode: all
+
+  # org.apache.fop.render.XMLHandler
+  - className: org.apache.fop.render.pdf.PDFSVGHandler
+    mode: all
+  - className: org.apache.fop.render.ps.PSSVGHandler
+    mode: all
+  - className: org.apache.fop.render.java2d.Java2DSVGHandler
+    mode: all
+  - className: org.apache.fop.render.pcl.PCLSVGHandler
+    mode: all
+  - className: org.apache.fop.render.afp.AFPSVGHandler
+    mode: all
+  # org.apache.fop.util.ContentHandlerFactory
+  - className: org.apache.fop.render.afp.extensions.AFPExtensionHandlerFactory
+    mode: all
+  - className: org.apache.fop.render.pdf.extensions.PDFExtensionHandlerFactory
+    mode: all
+  - className: org.apache.fop.render.ps.extensions.PSExtensionHandlerFactory
+    mode: all
+  - className: org.apache.fop.fo.extensions.xmp.XMPContentHandlerFactory
+    mode: all
+  # org.apache.fop.utils.text.AdvancedMessageFormat$Function
+  - className: org.apache.fop.fo.FONode$GatherContextInfoFunction
+    mode: all
+  # org.apache.fop.utils.text.AdvancedMessageFormat$ObjectFormatter
+  - className: org.apache.fop.util.text.LocatorFormatter
+    mode: all
+  # org.apache.fop.utils.text.AdvancedMessageFormat$PartFactory
+  - className: org.apache.fop.util.text.IfFieldPart$Factory
+    mode: all
+  - className: org.apache.fop.util.text.EqualsFieldPart$Factory
+    mode: all
+  - className: org.apache.fop.util.text.ChoiceFieldPart$Factory
+    mode: all
+  - className: org.apache.fop.util.text.HexFieldPart$Factory
+    mode: all
+  - className: org.apache.fop.util.text.GlyphNameFieldPart$Factory
+    mode: all
+  - className: org.apache.fop.util.text.LookupFieldPartFactory
+    mode: all
+  # org.apache.xmlgraphics.image.loader.spi.ImageConverter
+  - className: org.apache.fop.image.loader.batik.ImageConverterSVG2G2D
+    mode: all
+  - className: org.apache.fop.image.loader.batik.ImageConverterG2D2SVG
+    mode: all
+  - className: org.apache.fop.image.loader.batik.ImageConverterWMF2G2D
+    mode: all
+  # org.apache.xmlgraphics.image.loader.spi.ImageLoaderFactory
+  - className: org.apache.fop.image.loader.batik.ImageLoaderFactorySVG
+    mode: all
+  - className: org.apache.fop.image.loader.batik.ImageLoaderFactoryWMF
+    mode: all
+  # org.apache.xmlgraphics.image.loader.spi.ImagePreloader
+  - className: org.apache.fop.image.loader.batik.PreloaderWMF
+    mode: all
+  - className: org.apache.fop.image.loader.batik.PreloaderSVG
+    mode: all

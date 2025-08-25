@@ -1,0 +1,29 @@
+# Sample native helper config file
+---
+generate:
+  # org.apache.fop.fo.ElementMapping
+  - className: org.apache.fop.fo.FOElementMapping
+    mode: all
+  - className: org.apache.fop.fo.extensions.svg.SVGElementMapping
+    mode: all
+  - className: org.apache.fop.fo.extensions.svg.BatikExtensionElementMapping
+    mode: all
+  - className: org.apache.fop.fo.extensions.ExtensionElementMapping
+    mode: all
+  - className: org.apache.fop.fo.extensions.InternalElementMapping
+    mode: all
+  - className: org.apache.fop.fo.extensions.OldExtensionElementMapping
+    mode: all
+  - className: org.apache.fop.fo.extensions.xmp.XMPElementMapping
+    mode: all
+  - className: org.apache.fop.fo.extensions.xmp.RDFElementMapping
+    mode: all
+  - className: org.apache.fop.render.ps.extensions.PSExtensionElementMapping
+    mode: all
+  - className: org.apache.fop.render.afp.extensions.AFPElementMapping
+    mode: all
+  - className: org.apache.fop.render.pcl.extensions.PCLElementMapping
+    mode: all
+  - className: org.apache.fop.render.pdf.extensions.PDFElementMapping
+    mode: all
+

@@ -32,6 +32,7 @@
     <xml.plugin.version>1.0.1</xml.plugin.version>
     <xmlgraphics.commons.version>2.11.0-SNAPSHOT</xmlgraphics.commons.version>
     <xmlunit.version>1.2</xmlunit.version>
+    <native.helper.maven.plugin.version>1.4.6</native.helper.maven.plugin.version>
     <jdk.path>${env.JAVA_HOME}</jdk.path>
   </properties>
 

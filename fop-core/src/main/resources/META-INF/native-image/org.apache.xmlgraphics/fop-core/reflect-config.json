@@ -1,0 +1,625 @@
+[ {
+  "name" : "org.apache.fop.fo.FOElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.fo.extensions.svg.SVGElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.fo.extensions.svg.BatikExtensionElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.fo.extensions.ExtensionElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.fo.extensions.InternalElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.fo.extensions.OldExtensionElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.fo.extensions.xmp.XMPElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.fo.extensions.xmp.RDFElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.render.ps.extensions.PSExtensionElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.render.afp.extensions.AFPElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.render.pcl.extensions.PCLElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "org.apache.fop.render.pdf.extensions.PDFElementMapping",
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "equals",
+    "parameterTypes" : [ "java.lang.Object" ]
+  }, {
+    "name" : "getClass",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getDefaultDOMImplementation",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getNamespaceURI",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getStandardPrefix",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getTable",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "hashCode",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "isAttributeProperty",
+    "parameterTypes" : [ "org.apache.xmlgraphics.util.QName" ]
+  }, {
+    "name" : "notify",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "notifyAll",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "toString",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long" ]
+  }, {
+    "name" : "wait",
+    "parameterTypes" : [ "long", "int" ]
+  } ]
+}, {
+  "name" : "java.lang.Class",
+  "methods" : [ {
+    "name" : "getCanonicalName",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getName",
+    "parameterTypes" : [ ]
+  }, {
+    "name" : "getSimpleName",
+    "parameterTypes" : [ ]
+  } ]
+} ]
